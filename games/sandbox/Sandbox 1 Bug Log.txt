@@ -1,0 +1,18 @@
+Sandbox 1 Bug Log
+2/9/15
+	*fixed* 000: long standing collision bugs; Includes failure to pre-detect collision, resulting in horizontal collision detection when falling too fast,
+		player spazing when stuck inside a block, and dissapearing when colliding with "undefined" blocks at the bottom and top of the map.
+	001: Partially mining block, then opening inventory while holding mouse and subsiquently releasing will place the previous "dragItem" 
+		into the previous "dragStartIndex".
+	*fixed* 002: Dragging and droping a stack onto another will delete the pre-existing one.
+	*fixed* 003: Graphical glitches when mining on the opposite side of the direction you are walking, im pretty sure human arms don't do that.
+	*fixed* 004: Starting to mine on a solid block, then moving the cursor around in the air will produce air blocks with every new block index, see 2/11/15 in the Change Log
+	005: Right clicking and left clicking or something will sometimes delete the stack you are holding.
+	006: Starting to mine on the backlayer, then moving onto a block that has a back and forground layer will cause the back layer's drop to get stuck inside of the fore layer.
+	007: Mining with tools needs to set up a special render cycle, so  it doesnt look like you are hitting things with the handle
+	008: Stack maxes need to be enforced in several areas of the code, including stacking of tools.
+	*fixed* 009: Mining a block with value of undefined, such as outside the world will crash the game.
+	010: Graphical bugs with moving between sectors.
+	011: A possible problem where sector creation to the right does not execute every time. Could be caused by the 256 sector edge, probably should be 255, but i can't do math
+	012: falling through the bottom of the world and into the sky directly above
+	013: Right clicking on output slots creates errors

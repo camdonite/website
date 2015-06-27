@@ -1,0 +1,15 @@
+Sandbox 1 Agenda
+-Add Console for hacking in blocks and items, important for testing.
+*Implemented-Add Crafting (table), and Crafting in the inventory
+*Implemented-Add Smelting
+*In progress-Change world into sector units, like Minecraft's chunks, for infinite generation and world storage. This will be the largest undertaking to date!
+*Implemented-Add ores to world gen
+*Implemented-Add caves to world gen
+*Implemented-Add sand to world gen
+*Implemented-Add water to world gen
+-Other trees?
+-Crafting recepie reference sheet: Possibly a list of craftable items, where you click on one and it displays a grayed-out layout of the items you need inside the crafting table
+	allowing you to place your items ontop of the slots.
+*Implemented-Health
+-Trees fall when you cut them down
+-Falling sand/soil types

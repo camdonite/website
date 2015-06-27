@@ -1,0 +1,70 @@
+Sandbox 1 Change Log
+2/7/15
+	Code: worked on drag and drop
+	Assets:	added Crafting and Smelting GUI under interface.png
+2/8/15
+	Code: worked on inventory GUI, and "storageObjects" data structure
+	Assets:
+2/9/15
+	Code: Basically nothing, added the hotbar as a separate "storageObject"
+	Assets: added chest.png, and updated GUI hover box under interface.png into three separate colors, to be used as the selectors on the hotbar
+2/10/15
+	Code: selection and equipment bars
+	Assets: updated GUI hover box under interface.png
+2/11/15
+	Code: scrolling on selection bar. Also added ability to mine background layer, and place blocks in the background; note: comes with bugs.
+	Assets: 
+2/12/15
+	Code: Chests!
+	Assets: copper, tin, iron, gold, thorium, uranium, and coal ores.
+2/13/15
+	Code: refined drag and drop: right click splits/places one item, stacks combine, and dropping on an existing item will swap the two.
+	Assets:
+2/14/15
+	Code: Player arm animation now rotates about his shoulder, instead of refering to the sprite sheet, and the currently selected block is held in your hand.
+	Assets: Deleted player's arm frames from player.png, also saved player.png as a Gimp .xcf for easier changes. Added flint, elm_twine, and elm_stick to item folder.
+2/15/15
+	Code: Tool speed based on tier
+	Assets: clay, brick_mud, furnace_mud, crafting
+2/18/15
+	Code: Block drops based on tool tier
+	Assets:
+3/1/15
+	Code: Came back after a break in which i havent had any time. Started to implement sectors; they are just like Minecraft's chunk system, a way of loading the world inchrementally.
+	Assets: Transferred all blocks onto a sprite sheet named block_sheet.png
+3/4/15
+	Code: 
+		Rewriting some code to conform rendering processes for using a block and item sprite sheet, opposed to loading each individual image. 
+		Tweaked the size of items in the inventory.
+		Added a direct conversion of strings for the text function; it now accepts a string, and displays it in the Sandbox font. 
+		Fixed a bug where you could recieve an item drop using the wrong type of tool.
+	Assets: 
+		Transferred all items onto a sprite sheet named item_sheet.png
+		Changed the texture of the chest and crafting GUI to match their respective colors.
+3/5/15
+	Code: Implemented ores to the world generation. Played around with sound.
+	Assets: created four variations of the Sandbox font, stored as layers in the font.xcf file
+3/6/15
+	Code: Implemented crafting UI
+3/7/15
+	Code: Implemented crafting mechanics and recipe storage on a separate document
+		Added several beginner recipes
+	Assets: Mud Brick item
+3/8/15
+	Code: Added health deduction from falling
+	Assets: Inventory Crafting gui
+4/12/15
+	Code: Came back after a break (hooked on FTB TPPI pack)... Added many new recipes
+	Assets: Added Twine Fabric, Twine Rope, Bed, and Ladder.
+4/22/15
+	Code: Implemented 4 stats, and 8 skills + a survival level
+	Assets: Status bars
+4/22/15
+	Code: Implemented caves to the world generation
+	Assets:
+5/2/15
+	Code: Implemented the "New Collision" detection system, allowing the detection of partial blocks like stairs and slabs
+	Assets: M4, M1 Garand, 1911 Colt, and M1A1 Thompson. Also, many stair and slab variants
+5/7/15
+	Code: Minor things, adding blocks to variables, fixing minor bugs...
+	Assets: changed coal, and gravel textures

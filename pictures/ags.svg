@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 52 30" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<!--A-->
+<g viewBox="0 0 12 15" 
+   class="character">
+	<polyline points="5,0 12,0 12,12 10,12 10,7 7,7 0,15 5,0" fill="red" />
+	<polyline points="7,2 10,2 10,5 6,5 7,2" fill="white" />
+	<animate attributeName="opacity"
+			 from="0" to="1" 
+			 begin="0s" dur="1s" />
+	<animateTransform attributeName="transform" 
+					  type="scale" 
+					  from="3" to="1" 
+					  begin="0s" dur="1s" />
+</g>
+
+<!--G-->
+<g viewBox="0 0 10 15"
+   class="character"
+   opacity="0">
+	<polyline points="0,0 10,0 10,2 2,2 2,9 8,9 8,6 6,6 6,7 4,7 4,5 10,5 10,12 0,12 0,0" 
+			  fill="blue" />
+	<set attributeName="opacity"
+			 to="1" 
+			 begin="1s" dur="1s" fill="freeze"/>					 
+	<animate attributeName="opacity"
+			 from="0" to="1" 
+			 begin="1s" dur="1s" />
+	<animateTransform attributeName="transform" 
+					  type="scale" 
+					  from="3" to="1" 
+					  begin="1s" dur="1s" />
+	<animateTransform attributeName="transform" 
+					  type="translate" 
+					  additive="sum"
+					  from="12" to="12" 
+					  begin="1s" dur="1s" fill="freeze"/>
+</g>
+
+<!--S-->
+<g   viewBox="0 0 10 15"
+	 class="character"
+	 opacity="0"
+	 transform="translate(22,0)">
+	<polyline points="0,0 10,0 10,2 2,2 2,5 10,5 10,12 0,12 0,9 8,9 8,7 0,7 0,0" 
+			  fill="lime" >
+		<animateTransform attributeName="transform" 
+						  type="scale" 
+						  from="3" to="1" 
+						  begin="2s" dur="1s" />
+	</polyline>
+	
+	<set attributeName="opacity"
+			 to="1" 
+			 begin="2s" dur="1s" fill="freeze"/>					 
+	<animate attributeName="opacity"
+			 from="0" to="1" 
+			 begin="2s" dur="1s" />
+
+</g>
+
+<!--Stuff at its best-->
+<g viewBox="0 0 20 2"
+   transform="translate(7,14.5) scale(.17)"
+   opacity="0">
+	<text fill="yellow"
+		  style="font-family: Sans-serif; font-size: 15em">
+		  Stuff...At its best!
+	</text>
+	<line x1="0" y1="2" x2="120" y2="2" stroke="violet" stroke-width="1" />
+	<set attributeName="opacity"
+			 to="1" 
+			 begin="3s" dur="1s" fill="freeze"/>					 
+	<animate attributeName="opacity"
+			 from="0" to="1" 
+			 begin="3s" dur="1s" />
+</g>
+</svg>

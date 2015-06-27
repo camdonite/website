@@ -1,0 +1,117 @@
+body {
+	background-color: rgb(181, 181, 163);
+}
+p {
+	font: 24px bold Times;
+	text-align: justify;
+}
+div.title {
+	background-color: rgb(186, 163, 140);
+	width: 100%;
+	text-align: center;
+	border-bottom: 12px ridge rgb(64,64,64);
+	border-top: 12px ridge rgb(64,64,64);
+}
+div.title img {
+	left: 35%;
+	width: 400px;
+	position: absolute;
+}
+div.menu {
+	background-color: rgb(224, 209, 178);
+	text-align: center;
+	width: 100%;
+	height: auto;
+	border-bottom: 8px ridge rgb(64,64,64);
+}
+ul.menu {
+	padding: 0px;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	list-style-type: none;
+	width: auto;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	border-left: 2px inset rgb(182, 169, 144);
+	border-right: 2px inset rgb(182, 169, 144);
+}
+li.menu {
+	height: 100%;
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	border-left: 2px outset rgb(182, 169, 144);
+	border-right: 2px outset rgb(182, 169, 144);
+}
+h1.title {
+	font: small-caps bold 60px "Times New Roman", Times, serif;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+h2.title {
+	font: bold 30px "Times New Roman", Times, serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+a.menu {
+	display: inline-block;
+	background-color: rgb(224, 209, 178);
+	color: rgb(0,0,0);
+	font: 40px bold Times;
+	text-align: center;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-decoration: none;
+	float: left;
+	height: 100%;
+}
+a.menu:hover {
+	background-color: rgb(240, 232, 216);
+	padding-left: 32px;
+	padding-right: 32px;
+}
+a.button {
+	display: inline-block;
+	background-color: rgb(224, 209, 178);
+	color: rgb(0,0,0);
+	font: 40px bold Times;
+	text-align: center;
+	border: 8px outset rgb(182, 169, 144);
+	text-decoration: none;
+}
+a.button:hover {
+	background-color: rgb(240, 232, 216);
+	border-color: rgb(211, 203, 188);
+}
+table.game {
+	background-color: rgb(126, 102, 77);
+	height: 256px;
+	border: 12px ridge rgb(64,64,64);
+}
+tr.game {
+	background-color: rgb(165, 148, 130);
+	height: 256px;
+}
+img.game {
+	height: 256px;
+	border: 8px ridge rgb(64,64,64);
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+h3.game {
+	font: bold 40px "Times New Roman", Times, serif;
+	margin-bottom: 16px;
+}
+p.game {
+	background-color: rgb(152, 133, 113);
+	left: 448px;
+	top: 0px;
+	margin: 16px;
+	font: 24px bold Times;
+	padding: 8px;
+	border-radius: 8px;
+}
